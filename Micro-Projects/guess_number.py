@@ -16,4 +16,3 @@ while guess != num_to_guess:
 
 print('You win, you guessed right!')
     
-    
