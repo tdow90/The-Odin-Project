@@ -9,7 +9,7 @@ def save_data(filename, dic):
         data.write(f"{values}\n")
 
 
-#save_data('people.txt', people)
+save_data('people.txt', people)
 
 # Need to make a function to load data back into the dictionary
 def load_data(filename):
@@ -25,5 +25,6 @@ def load_data(filename):
     return people
 
 
-print(load_data('humans.txt'))
+#print(load_data('humans.txt'))
+
 
